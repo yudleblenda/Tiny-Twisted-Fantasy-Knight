@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://cw3v4xagf3y8l"]
+
+[ext_resource type="Texture2D" uid="uid://driwq7eyhqfvt" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="1_76pgy"]
+[ext_resource type="Texture2D" uid="uid://bj4isfeuba6fs" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="2_dmom7"]
+[ext_resource type="Texture2D" uid="uid://ilg6upjrdef8" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="3_1el7b"]
+[ext_resource type="Texture2D" uid="uid://c8uq6kuurlqcq" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png" id="4_a2eml"]
+[ext_resource type="Texture2D" uid="uid://bn4ui7hiw8mnr" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png" id="5_vmx5h"]
+[ext_resource type="Texture2D" uid="uid://dhv4bfh1glgp" path="res://addons/Tiny Swords/Factions/Knights/Troops/Dead/Dead.png" id="6_fryyx"]
+[ext_resource type="Texture2D" uid="uid://dgudyhmt5nvvx" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png" id="7_o6r8f"]
+[ext_resource type="Texture2D" uid="uid://dwvqp6yjlaxcg" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Bouncing.png" id="8_5oakg"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorBlue" type="Sprite2D" parent="."]
+position = Vector2(594, 1416)
+texture = ExtResource("1_76pgy")
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(1774, 1416)
+texture = ExtResource("2_dmom7")
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(2965, 1405)
+texture = ExtResource("3_1el7b")
+
+[node name="WarriorYellow" type="Sprite2D" parent="."]
+position = Vector2(4145, 1406)
+texture = ExtResource("4_a2eml")
+
+[node name="PawnPurple" type="Sprite2D" parent="."]
+position = Vector2(2621, 2726)
+texture = ExtResource("5_vmx5h")
+
+[node name="Dead" type="Sprite2D" parent="."]
+position = Vector2(6023, 962)
+texture = ExtResource("6_fryyx")
+
+[node name="TorchPurple" type="Sprite2D" parent="."]
+position = Vector2(5938, 1764)
+texture = ExtResource("7_o6r8f")
+
+[node name="HappySheepBouncing" type="Sprite2D" parent="."]
+position = Vector2(6941, 982)
+texture = ExtResource("8_5oakg")
